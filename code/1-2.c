@@ -22,6 +22,6 @@ int main()
     printf("ihl: %u, size: %zu\n", s.ihl, sizeof(s.ihl));
     printf("ttl: %u, size: %zu\n", s.ttl, sizeof(s.ttl));
     printf("protocol: %u, size: %zu\n", s.protocol, sizeof(s.protocol));
-    printf("data: %u, size: %zu\n", s.data, sizeof(s.data));
+    printf("data: %s, size: %zu\n", s.data, sizeof(s.data));
     
 }
